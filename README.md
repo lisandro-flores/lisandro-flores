@@ -113,13 +113,13 @@ Colaboré en equipo para construir y desplegar el CMS institucional para la admi
 </td>
 <td width="50%">
 
-### 🎥 Ngi Codebase - Educación Tech
+### 🔄 Refactorización Core - Digybot SaaS
 
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white"/> <img src="https://img.shields.io/badge/Backend-000000?style=flat"/>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/RBAC-000000?style=flat"/>
 
-Canal técnico creado para documentar, analizar y enseñar conceptos de desarrollo de software y arquitectura backend. Un espacio dedicado a compartir conocimiento técnico estructurado con la comunidad de desarrolladores.
+Ejecuté la refactorización técnica de la plataforma SaaS Digybot, migrando 3 módulos críticos a NestJS y estabilizando la comunicación frontend-backend. Construí las interfaces de Onboarding en Angular y participé en pruebas funcionales del sistema de control de accesos (RBAC).
 
-<a href="https://youtube.com/"><img src="https://img.shields.io/badge/Ver%20Canal-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+*Trabajo de consultoría bajo NDA.*
 
 </td>
 </tr>
