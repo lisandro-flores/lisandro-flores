@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CV Lisandro Flores Ortega - Backend</title>
+  <style>
+    @page { size: Letter; margin: 0.42in 0.5in; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 9.15pt; line-height: 1.18; }
+    header { text-align: center; margin-bottom: 9px; }
+    h1 { margin: 0 0 2px; font-size: 21pt; letter-spacing: .5px; color: #141827; }
+    .role { font-size: 11.2pt; color: #465064; margin-bottom: 4px; }
+    .contact { font-size: 8.6pt; color: #4d5668; }
+    a { color: #145dcc; text-decoration: none; }
+    h2 { margin: 9px 0 5px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.5pt; text-transform: uppercase; letter-spacing: .2px; }
+    h3 { margin: 5px 0 2px; font-size: 9.7pt; }
+    .meta { font-weight: normal; color: #576174; }
+    p { margin: 0 0 4px; }
+    ul { margin: 2px 0 5px 16px; padding: 0; }
+    li { margin: 0 0 1.5px; }
+    .tech { color: #515b6d; font-size: 8.65pt; }
+    .skills p { margin-bottom: 2px; }
+    .education { display: flex; justify-content: space-between; gap: 15px; }
+    .education > div { width: 50%; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LISANDRO FLORES ORTEGA</h1>
+    <div class="role">Backend Developer · Node.js · NestJS · TypeScript · PostgreSQL</div>
+    <div class="contact">Tehuacán, Puebla, Mexico · (237) 114-5514 · <a href="mailto:lisandroflores23027@gmail.com">lisandroflores23027@gmail.com</a></div>
+    <div class="contact"><a href="https://linkedin.com/in/lisandro-flores">linkedin.com/in/lisandro-flores</a> · <a href="https://github.com/lisandro-flores">github.com/lisandro-flores</a></div>
+  </header>
+
+  <h2>Summary</h2>
+  <p>Backend Developer who designed, built, and shipped NgiCaja — a B2B point-of-sale SaaS with 109 endpoints, 26 modules, and 979 automated tests — currently in closed beta with real businesses. Experienced in REST APIs with NestJS, TypeScript, and PostgreSQL, JWT authentication, RBAC, Stripe payment integration, and continuous deployment with Docker and Linux. Previous contributions include multi-currency billing engines and tax-compliance guards.</p>
+
+  <h2>Experience</h2>
+  <h3>Founder & Software Engineer · NgiCode <span class="meta">| Remote · Apr 2026 – Present</span></h3>
+  <ul>
+    <li>Designed and shipped NgiCaja, a B2B POS SaaS available on web and Android through a closed beta on Google Play.</li>
+    <li>Built a 109-endpoint API across 26 modules with NestJS, Prisma, and PostgreSQL for sales, inventory, cash register closings, branches, and subscriptions.</li>
+    <li>Implemented JWT, RBAC with 4 roles, per-business data isolation, plan-based limits, and Stripe subscription integration.</li>
+    <li>Developed offline sync, bulk import of up to 5,000 products via Excel/CSV, and ticket and barcode generation.</li>
+    <li>Automated 979 tests (Jest + Supertest + Vitest + Cypress) and CI/CD pipeline with Docker and Linux; deploy in 5–7 min from push to production.</li>
+  </ul>
+
+  <h3>Full Stack / Backend Developer · Digyto Solutions <span class="meta">| Remote · Jan 2026 – May 2026</span></h3>
+  <ul>
+    <li>Designed and implemented a multi-currency recurring billing engine with Stripe Billing, webhook reconciliation, and multi-tenant access control (NestJS / .NET).</li>
+    <li>Developed tax-compliance guards (SAT / e.Firma) that blocked unauthorized consumption on inactive tenants, eliminating operational cost leaks.</li>
+    <li>Built an immutable policy audit module (Entity Framework Core) and refactored RBAC and API contracts across the SaaS platform.</li>
+    <li>Consolidated 16,000+ lines of code and 49 production commits in an agile team of 4 developers using Scrum.</li>
+  </ul>
+
+  <h3>Backend Developer (Institutional Project) · UTTECAM <span class="meta">| Tecamachalco, Puebla · Aug 2025 – Dec 2025</span></h3>
+  <ul>
+    <li>Developed and deployed a REST API with Node.js, Express, JWT, and CRUD for 7 sections of the institutional CMS; the system remains active in production.</li>
+    <li>Administrative modules reduced content update turnaround from hours/days of paperwork to approximately 30 minutes.</li>
+    <li>Handled deployment, maintenance, and production support via cPanel.</li>
+  </ul>
+
+  <h2>Featured Projects</h2>
+  <h3>NgiCaja — B2B Point-of-Sale SaaS</h3>
+  <p class="tech">NestJS · Prisma · PostgreSQL · React · Ionic · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
+  <p>Multi-tenant product with sales, per-branch inventory, cash register closings, receipts, bulk import, offline operation, and subscriptions.</p>
+
+  <h3>Realtime Log Analytics — Lightweight Observability Service</h3>
+  <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
+  <p>Self-contained log ingestion and real-time streaming service, a lightweight alternative to stacks like ELK or Datadog. Built in Go for native concurrency (goroutines + channels) achieving ~46 MiB RAM under load. Benchmarked with a custom CLI and concurrent workers: 19,037 req/s, 0 failures, p99 of 31 ms with 100 clients.</p>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST, JWT, RBAC, WebSockets, Go</p>
+    <p><strong>Data:</strong> PostgreSQL, MySQL, MongoDB, SQL, Prisma ORM</p>
+    <p><strong>Infrastructure & Quality:</strong> Docker, Linux, Git/GitHub, CI/CD, automated testing, Postman, cPanel</p>
+    <p><strong>Complementary Frontend:</strong> React, Angular, Ionic, Next.js, Tailwind CSS · <strong>Languages:</strong> Spanish (native), English (technical reading)</p>
+  </div>
+
+  <h2>Education</h2>
+  <div class="education">
+    <div><strong>B.Eng. in Software Development & Management</strong><br><span class="meta">UTTECAM · Sep 2024 – May 2026 · Graduated · GPA: 9.63 / 10</span></div>
+    <div><strong>Associate Degree in Cross-Platform Software Development</strong><br><span class="meta">UTTECAM · Jan 2022 – Sep 2024</span></div>
+  </div>
+</body>
+</html>

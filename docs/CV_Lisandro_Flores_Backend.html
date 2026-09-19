@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>CV Lisandro Flores Ortega - Backend</title>
+  <style>
+    @page { size: Letter; margin: 0.42in 0.5in; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 9.15pt; line-height: 1.18; }
+    header { text-align: center; margin-bottom: 9px; }
+    h1 { margin: 0 0 2px; font-size: 21pt; letter-spacing: .5px; color: #141827; }
+    .role { font-size: 11.2pt; color: #465064; margin-bottom: 4px; }
+    .contact { font-size: 8.6pt; color: #4d5668; }
+    a { color: #145dcc; text-decoration: none; }
+    h2 { margin: 9px 0 5px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.5pt; text-transform: uppercase; letter-spacing: .2px; }
+    h3 { margin: 5px 0 2px; font-size: 9.7pt; }
+    .meta { font-weight: normal; color: #576174; }
+    p { margin: 0 0 4px; }
+    ul { margin: 2px 0 5px 16px; padding: 0; }
+    li { margin: 0 0 1.5px; }
+    .tech { color: #515b6d; font-size: 8.65pt; }
+    .skills p { margin-bottom: 2px; }
+    .education { display: flex; justify-content: space-between; gap: 15px; }
+    .education > div { width: 50%; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LISANDRO FLORES ORTEGA</h1>
+    <div class="role">Backend Developer · Node.js · NestJS · TypeScript · PostgreSQL</div>
+    <div class="contact">Tehuacán, Puebla, México · (237) 114-5514 · <a href="mailto:lisandroflores23027@gmail.com">lisandroflores23027@gmail.com</a></div>
+    <div class="contact"><a href="https://linkedin.com/in/lisandro-flores">linkedin.com/in/lisandro-flores</a> · <a href="https://github.com/lisandro-flores">github.com/lisandro-flores</a></div>
+  </header>
+
+  <h2>Perfil</h2>
+  <p>Desarrollador Backend que diseñó, construyó y lanzó NgiCaja — un SaaS B2B de punto de venta con 109 endpoints, 26 módulos y 979 tests automatizados — actualmente en beta cerrada con negocios reales. Experiencia en APIs REST con NestJS, TypeScript y PostgreSQL, autenticación JWT, RBAC, integración de pagos con Stripe y despliegue continuo con Docker y Linux. Contribuciones previas en motores de facturación multimoneda y guardas de cumplimiento fiscal.</p>
+
+  <h2>Experiencia</h2>
+  <h3>Fundador y Software Engineer · NgiCode <span class="meta">| Remoto · abr 2026 – presente</span></h3>
+  <ul>
+    <li>Diseñé y publiqué NgiCaja, un SaaS B2B de punto de venta disponible en web y Android mediante una beta cerrada en Google Play.</li>
+    <li>Construí una API de 109 endpoints en 26 módulos con NestJS, Prisma y PostgreSQL para ventas, inventario, cortes de caja, sucursales y suscripciones.</li>
+    <li>Implementé JWT, RBAC con 4 roles, aislamiento de datos por negocio, límites por plan e integración de suscripciones con Stripe.</li>
+    <li>Desarrollé sincronización offline, importación masiva de hasta 5,000 productos por Excel/CSV y generación de tickets y códigos de barras.</li>
+    <li>Automaticé 979 tests (Jest + Supertest + Vitest + Cypress) y pipeline CI/CD con Docker y Linux; deploy en 5–7 min desde push a producción.</li>
+  </ul>
+
+  <h3>Desarrollador Full Stack / Backend · Digyto Solutions <span class="meta">| Remoto · ene 2026 – may 2026</span></h3>
+  <ul>
+    <li>Diseñé e implementé un motor de facturación recurrente multimoneda con Stripe Billing, conciliación de webhooks y control de acceso multi-tenant en el backend (NestJS / .NET).</li>
+    <li>Desarrollé guardas de cumplimiento fiscal (SAT / e.Firma) que bloquearon consumo no autorizado en tenants sin suscripción activa, eliminando fugas de costos operativos.</li>
+    <li>Construí un módulo de auditoría de pólizas con trazabilidad inmutable (Entity Framework Core) y refactoricé RBAC y contratos API de la plataforma SaaS.</li>
+    <li>Consolidé +16,000 líneas de código y 49 commits de producción en un equipo ágil de 4 devs con Scrum.</li>
+  </ul>
+
+  <h3>Desarrollador Backend (Proyecto institucional) · UTTECAM <span class="meta">| Tecamachalco, Puebla · ago 2025 – dic 2025</span></h3>
+  <ul>
+    <li>Desarrollé y desplegué una API REST con Node.js, Express, JWT y CRUD para 7 secciones del CMS institucional; el sistema sigue activo en producción.</li>
+    <li>Los módulos administrativos redujeron la actualización de contenido de horas o días de trámite a aproximadamente 30 minutos.</li>
+    <li>Realicé despliegue, mantenimiento y soporte en producción mediante cPanel.</li>
+  </ul>
+
+  <h2>Proyectos destacados</h2>
+  <h3>NgiCaja — SaaS de punto de venta B2B</h3>
+  <p class="tech">NestJS · Prisma · PostgreSQL · React · Ionic · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
+  <p>Producto multiusuario con ventas, inventario por sucursal, cortes de caja, tickets, importación masiva, operación offline y suscripciones.</p>
+
+  <h3>Realtime Log Analytics — servicio de observabilidad ultraligero</h3>
+  <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
+  <p>Servicio autocontenido de ingesta y streaming de logs en tiempo real, alternativa ligera a stacks como ELK o Datadog. Elegí Go por su modelo de concurrencia nativo (goroutines + channels) logrando ~46 MiB de RAM bajo carga. Benchmark con CLI propia y workers concurrentes: 19,037 req/s, 0 fallos, p99 de 31 ms con 100 clientes.</p>
+
+  <h2>Habilidades</h2>
+  <div class="skills">
+    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST, JWT, RBAC, WebSockets, Go</p>
+    <p><strong>Datos:</strong> PostgreSQL, MySQL, MongoDB, SQL, Prisma ORM</p>
+    <p><strong>Infraestructura y calidad:</strong> Docker, Linux, Git/GitHub, CI/CD, pruebas automatizadas, Postman, cPanel</p>
+    <p><strong>Frontend complementario:</strong> React, Angular, Ionic, Next.js, Tailwind CSS · <strong>Inglés:</strong> lectura técnica</p>
+  </div>
+
+  <h2>Educación</h2>
+  <div class="education">
+    <div><strong>Ingeniería en Desarrollo y Gestión de Software</strong><br><span class="meta">UTTECAM · sep 2024 – may 2026 · Titulado · Promedio: 9.63</span></div>
+    <div><strong>TSU en Desarrollo de Software Multiplataforma</strong><br><span class="meta">UTTECAM · ene 2022 – sep 2024</span></div>
+  </div>
+</body>
+</html>

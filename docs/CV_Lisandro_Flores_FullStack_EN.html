@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CV Lisandro Flores Ortega - Full Stack</title>
+  <style>
+    @page { size: Letter; margin: 0.42in 0.5in; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 8.85pt; line-height: 1.15; }
+    header { text-align: center; margin-bottom: 7px; }
+    h1 { margin: 0 0 2px; font-size: 20pt; letter-spacing: .5px; color: #141827; }
+    .role { font-size: 11.2pt; color: #465064; margin-bottom: 4px; }
+    .contact { font-size: 8.6pt; color: #4d5668; }
+    a { color: #145dcc; text-decoration: none; }
+    h2 { margin: 7px 0 4px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.3pt; text-transform: uppercase; letter-spacing: .2px; }
+    h3 { margin: 4px 0 1px; font-size: 9.5pt; }
+    .meta { font-weight: normal; color: #576174; }
+    p { margin: 0 0 4px; }
+    ul { margin: 1px 0 3px 16px; padding: 0; }
+    li { margin: 0 0 1px; }
+    .tech { color: #515b6d; font-size: 8.65pt; }
+    .skills p { margin-bottom: 2px; }
+    .education { display: flex; justify-content: space-between; gap: 15px; }
+    .education > div { width: 50%; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LISANDRO FLORES ORTEGA</h1>
+    <div class="role">Full Stack Developer · React · Angular · Node.js · NestJS · TypeScript</div>
+    <div class="contact">Tehuacán, Puebla, Mexico · (237) 114-5514 · <a href="mailto:lisandroflores23027@gmail.com">lisandroflores23027@gmail.com</a></div>
+    <div class="contact"><a href="https://linkedin.com/in/lisandro-flores">linkedin.com/in/lisandro-flores</a> · <a href="https://github.com/lisandro-flores">github.com/lisandro-flores</a></div>
+  </header>
+
+  <h2>Summary</h2>
+  <p>Full Stack Developer who designed, built, and shipped NgiCaja — a B2B point-of-sale SaaS with 109 endpoints, 26 modules, and 979 tests — currently in closed beta with real businesses. End-to-end experience: from data modeling and APIs (NestJS, PostgreSQL, Stripe) to responsive interfaces (React, Angular, Ionic) and continuous deployment with Docker and Linux. Previous contributions include multi-currency billing engines and Page Builders with static export.</p>
+
+  <h2>Experience</h2>
+  <h3>Founder & Full Stack Software Engineer · NgiCode <span class="meta">| Remote · Apr 2026 – Present</span></h3>
+  <ul>
+    <li>Designed and shipped NgiCaja, a SaaS application available on web, PWA, and Android through a closed beta on Google Play.</li>
+    <li>Built responsive interfaces in React for POS, inventory, receipts, cash register closings, reports, users, and subscriptions.</li>
+    <li>Developed the backend: 109 endpoints across 26 modules with NestJS, Prisma, and PostgreSQL, including JWT, RBAC (4 roles), and multi-tenant isolation.</li>
+    <li>Implemented offline sync, bulk import of up to 5,000 products via Excel/CSV, barcode scanning, and Stripe payments.</li>
+    <li>Automated 979 tests (Jest + Supertest + Vitest + Cypress) and CI/CD pipeline with Docker and Linux; deploy in 5–7 min from push to production.</li>
+  </ul>
+
+  <h3>Full Stack / Backend Developer · Digyto Solutions <span class="meta">| Remote · Jan 2026 – May 2026</span></h3>
+  <ul>
+    <li>Refactored RBAC, onboarding, and dynamic QR connection modules in Angular; built a Page Builder from scratch with static HTML export and Lazy Loading.</li>
+    <li>Designed a multi-currency billing engine with Stripe Billing, webhook reconciliation, and multi-tenant access control (NestJS / .NET).</li>
+    <li>Implemented tax-compliance guards (SAT / e.Firma) and an immutable policy audit module (Entity Framework Core).</li>
+    <li>Consolidated 16,000+ lines and 49 production commits in an agile team of 4 developers using Scrum, with end-to-end full-stack ownership.</li>
+  </ul>
+
+  <h3>Backend Developer (Institutional Project) · UTTECAM <span class="meta">| Tecamachalco, Puebla · Aug 2025 – Dec 2025</span></h3>
+  <ul>
+    <li>Collaborated on building and deploying an institutional CMS with 7 administrable sections; the system remains active in production.</li>
+    <li>Developed a REST API with Node.js, Express, JWT, validation, and CRUD; modules reduced content update turnaround to approximately 30 minutes.</li>
+    <li>Handled deployment, maintenance, and production support via cPanel.</li>
+  </ul>
+
+  <h2>Featured Projects</h2>
+  <h3>NgiCaja — Web & Android SaaS Application</h3>
+  <p class="tech">React · Ionic · Capacitor · NestJS · Prisma · PostgreSQL · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
+  <p>Multi-tenant product with adaptive UI for mobile, tablet, and desktop; sales, per-branch inventory, receipts, reports, offline operation, and subscriptions.</p>
+
+  <h3>Realtime Log Analytics — Lightweight Observability Service</h3>
+  <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
+  <p>Self-contained log ingestion and real-time streaming service, a lightweight alternative to stacks like ELK or Datadog. Built in Go for native concurrency (goroutines + channels) achieving ~46 MiB RAM under load. Benchmarked with a custom CLI and concurrent workers: 19,037 req/s, 0 failures, p99 of 31 ms with 100 clients.</p>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <p><strong>Frontend:</strong> React, Angular, Ionic, Capacitor, Next.js, Tailwind CSS, responsive design</p>
+    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST, JWT, RBAC, WebSockets, Go</p>
+    <p><strong>Data:</strong> PostgreSQL, MySQL, MongoDB, SQL, Prisma ORM</p>
+    <p><strong>Infrastructure & Quality:</strong> Docker, Linux, Git/GitHub, CI/CD, automated testing, Postman · <strong>Languages:</strong> Spanish (native), English (technical reading)</p>
+  </div>
+
+  <h2>Education</h2>
+  <div class="education">
+    <div><strong>B.Eng. in Software Development & Management</strong><br><span class="meta">UTTECAM · Sep 2024 – May 2026 · Graduated · GPA: 9.63 / 10</span></div>
+    <div><strong>Associate Degree in Cross-Platform Software Development</strong><br><span class="meta">UTTECAM · Jan 2022 – Sep 2024</span></div>
+  </div>
+</body>
+</html>
