@@ -172,8 +172,8 @@ Motor de facturación recurrente **multimoneda con Stripe Billing**, webhooks y 
 ## 📊 Estadísticas
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lisandro-flores&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lisandro-flores&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=lisandro-flores&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lisandro-flores&layout=compact&langs_count=8&theme=tokyonight" height="180" alt="Top Languages" />
 </div>
 
 ---
