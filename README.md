@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://lisandro-flores.github.io/Lisandro/foto-perfil.jpg" alt="Lisandro Flores Ortega" width="150" style="border-radius: 50%; border: 4px solid #0066ff;"/>
+  <img src="https://avatars.githubusercontent.com/u/135860723?v=4" alt="Lisandro Flores Ortega" width="150" style="border-radius: 50%; border: 4px solid #0066ff;"/>
   
   <h1>👋 Hola, soy Lisandro Flores</h1>
   <h3>💻 Backend Developer | Creador de NgiCaja — SaaS B2B en producción</h3>
@@ -25,7 +25,7 @@ Diseñé, construí y lancé **NgiCaja** — un SaaS B2B de punto de venta con *
 
 Experiencia en APIs REST con **NestJS**, **TypeScript** y **PostgreSQL**, autenticación JWT, RBAC, integración de pagos con **Stripe**, y despliegue continuo con **Docker** y **Linux**. Contribuciones previas en motores de facturación multimoneda y guardas de cumplimiento fiscal.
 
-Ingeniero en Desarrollo y Gestión de Software por la UTTECAM, titulado con promedio de **9.63 / 10**.
+Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con examen de titulación concluido, título pendiente de trámite y promedio de **9.63 / 10**.
 
 ---
 
@@ -162,7 +162,7 @@ Motor de facturación recurrente **multimoneda con Stripe Billing**, webhooks y 
 
 | 🏫 Institución | 📚 Título | 📅 Estado |
 |:---:|:---:|:---:|
-| **UTTECAM** | Ingeniería en Desarrollo y Gestión de Software | ✅ Titulado · Promedio: **9.63 / 10** |
+| **UTTECAM** | Ingeniería en Desarrollo y Gestión de Software | Egresado · Examen de titulación concluido · Título pendiente de trámite · Promedio: **9.63 / 10** |
 | **UTTECAM** | TSU en Desarrollo de Software Multiplataforma | 2022 – 2024 |
 
 </div>
