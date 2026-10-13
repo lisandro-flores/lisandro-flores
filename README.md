@@ -9,7 +9,7 @@
   <h3>💻 Backend Developer | Creador de NgiCaja — SaaS B2B en producción</h3>
   
   <p>
-    <a href="https://www.linkedin.com/in/lisandro-flores-73347b2b4"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://www.linkedin.com/in/lisandro-flores/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="https://github.com/lisandro-flores"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
     <a href="mailto:lisandroflores23027@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
     <a href="https://caja.ngicode.com"><img src="https://img.shields.io/badge/NgiCaja-SaaS-0066ff?style=for-the-badge&logo=globe&logoColor=white" alt="NgiCaja"/></a>
@@ -185,7 +185,7 @@ Motor de facturación recurrente **multimoneda con Stripe Billing**, webhooks y 
 ¿Buscas un desarrollador backend que construya productos, no solo features? Hablemos.
 
 <p>
-  <a href="https://www.linkedin.com/in/lisandro-flores-73347b2b4">
+  <a href="https://www.linkedin.com/in/lisandro-flores/">
     <img src="https://img.shields.io/badge/LinkedIn-Lisandro%20Flores-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:lisandroflores23027@gmail.com">
