@@ -11,6 +11,7 @@
   <p>
     <a href="https://www.linkedin.com/in/lisandro-flores/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="https://github.com/lisandro-flores"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+    <a href="https://lisandro-flores.github.io/Lisandro/"><img src="https://img.shields.io/badge/Portafolio%20Web-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portafolio Web"/></a>
     <a href="mailto:lisandroflores23027@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
     <a href="https://caja.ngicode.com"><img src="https://img.shields.io/badge/NgiCaja-SaaS-0066ff?style=for-the-badge&logo=globe&logoColor=white" alt="NgiCaja"/></a>
     <a href="./docs/CV_LisandroFlores.pdf"><img src="https://img.shields.io/badge/CV-PDF-red?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="CV"/></a>
@@ -21,9 +22,9 @@
 
 ## 👨‍💻 Sobre Mí
 
-Desarrollador Full Stack con experiencia construyendo interfaces web y móviles con **React**, **Angular**, **TypeScript** y **Tailwind CSS**, además de APIs REST con **NestJS** y **PostgreSQL**.
+Desarrollador Full Stack con experiencia construyendo interfaces web y móviles con **React**, **Angular**, **TypeScript** y **Tailwind CSS**, además de APIs REST escalables con **NestJS**, **Node.js** y **PostgreSQL**.
 
-He participado en productos SaaS y sistemas web en producción, trabajando con autenticación JWT, RBAC, integración de pagos con **Stripe**, pruebas automatizadas y despliegues con **Docker** y **Linux**. También tengo experiencia en motores de facturación multimoneda y guardas de cumplimiento fiscal.
+He llevado plataformas SaaS y sistemas web a producción con usuarios reales: fundé y desarrollé **NgiCaja** (punto de venta B2B disponible en web, PWA y Android con 109 endpoints y 979 pruebas automatizadas), y en **Digyto Solutions** trabajé en facturación multimoneda con Stripe, guardas fiscales y arquitectura en Angular. Me enfoco en código modular, alta confiabilidad operativa y pipelines de CI/CD con Docker y Linux.
 
 Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con examen de titulación concluido, título pendiente de trámite y promedio de **9.63 / 10**.
 
@@ -182,11 +183,14 @@ Motor de facturación recurrente **multimoneda con Stripe Billing**, webhooks y 
 
 <div align="center">
   
-¿Buscas un desarrollador backend que construya productos, no solo features? Hablemos.
+¿Buscas un desarrollador full stack / backend que construya productos reales con arquitectura sólida y calidad comprobada? Hablemos.
 
 <p>
   <a href="https://www.linkedin.com/in/lisandro-flores/">
     <img src="https://img.shields.io/badge/LinkedIn-Lisandro%20Flores-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://lisandro-flores.github.io/Lisandro/">
+    <img src="https://img.shields.io/badge/Portafolio%20Web-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portafolio Web"/>
   </a>
   <a href="mailto:lisandroflores23027@gmail.com">
     <img src="https://img.shields.io/badge/Email-lisandroflores23027%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
