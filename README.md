@@ -26,7 +26,7 @@ Desarrollador Full Stack con experiencia construyendo interfaces web y móviles 
 
 He llevado plataformas SaaS y sistemas web a producción con usuarios reales: fundé y desarrollé **NgiCaja** (punto de venta B2B disponible en web, PWA y Android con 109 endpoints y 979 pruebas automatizadas), y en **Digyto Solutions** trabajé en facturación multimoneda con Stripe, guardas fiscales y arquitectura en Angular. Me enfoco en código modular, alta confiabilidad operativa y pipelines de CI/CD con Docker y Linux.
 
-Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con 100% de créditos cubiertos, examen de titulación aprobado y promedio de **9.63 / 10**.
+Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con examen de titulación aprobado y promedio de **9.63 / 10**.
 
 ---
 
