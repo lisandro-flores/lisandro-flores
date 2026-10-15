@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0066ff&height=200&section=header&text=Lisandro%20Flores%20Ortega&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%C2%B7%20NestJS%20%C2%B7%20TypeScript%20%C2%B7%20PostgreSQL%20%C2%B7%20Go&descAlignY=55&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0066ff&height=200&section=header&text=Lisandro%20Flores%20Ortega&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%C2%B7%20React%20%C2%B7%20Angular%20%C2%B7%20TypeScript&descAlignY=55&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/135860723?v=4" alt="Lisandro Flores Ortega" width="150" style="border-radius: 50%; border: 4px solid #0066ff;"/>
   
   <h1>👋 Hola, soy Lisandro Flores</h1>
-  <h3>💻 Backend Developer | Creador de NgiCaja — SaaS B2B en producción</h3>
+  <h3>💻 Full Stack Developer | React · Angular · TypeScript</h3>
   
   <p>
     <a href="https://www.linkedin.com/in/lisandro-flores/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -21,9 +21,9 @@
 
 ## 👨‍💻 Sobre Mí
 
-Diseñé, construí y lancé **NgiCaja** — un SaaS B2B de punto de venta con **109 endpoints**, **26 módulos** y **979 tests automatizados** — actualmente en beta cerrada con negocios reales.
+Desarrollador Full Stack con experiencia construyendo interfaces web y móviles con **React**, **Angular**, **TypeScript** y **Tailwind CSS**, además de APIs REST con **NestJS** y **PostgreSQL**.
 
-Experiencia en APIs REST con **NestJS**, **TypeScript** y **PostgreSQL**, autenticación JWT, RBAC, integración de pagos con **Stripe**, y despliegue continuo con **Docker** y **Linux**. Contribuciones previas en motores de facturación multimoneda y guardas de cumplimiento fiscal.
+He participado en productos SaaS y sistemas web en producción, trabajando con autenticación JWT, RBAC, integración de pagos con **Stripe**, pruebas automatizadas y despliegues con **Docker** y **Linux**. También tengo experiencia en motores de facturación multimoneda y guardas de cumplimiento fiscal.
 
 Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con examen de titulación concluido, título pendiente de trámite y promedio de **9.63 / 10**.
 
@@ -70,7 +70,7 @@ Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/>
 </p>
 
-### Frontend (complementario)
+### Frontend
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular"/>
@@ -92,10 +92,10 @@ Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con
 
 <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
 
-Producto SaaS que diseñé, construí y lancé de cero. Actualmente en **beta cerrada con negocios reales**.
+Aplicación SaaS para punto de venta disponible en web, PWA y Android mediante una beta cerrada.
 
-- **109 endpoints** en **26 módulos** backend
-- **979 tests** automatizados (Jest + Supertest + Vitest + Cypress)
+- Backend de **109 endpoints** en **26 módulos**
+- **979 pruebas** automatizadas (Jest + Supertest + Vitest + Cypress)
 - JWT, RBAC (4 roles), aislamiento de datos por negocio
 - Sincronización offline, importación de hasta 5,000 productos
 - Suscripciones con Stripe, generación de tickets y códigos de barras
