@@ -26,7 +26,7 @@ Desarrollador Full Stack con experiencia construyendo interfaces web y móviles 
 
 He llevado plataformas SaaS y sistemas web a producción con usuarios reales: fundé y desarrollé **NgiCaja** (punto de venta B2B disponible en web, PWA y Android con 109 endpoints y 979 pruebas automatizadas), y en **Digyto Solutions** trabajé en facturación multimoneda con Stripe, guardas fiscales y arquitectura en Angular. Me enfoco en código modular, alta confiabilidad operativa y pipelines de CI/CD con Docker y Linux.
 
-Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM, con examen de titulación aprobado y promedio de **9.63 / 10**.
+Egresado de Ingeniería en Desarrollo y Gestión de Software por la UTTECAM (protesta profesional realizada en junio de 2026, título en trámite) con promedio general de **9.45 / 10**.
 
 ---
 
@@ -142,7 +142,7 @@ Proyecto institucional contratado. API REST con CRUD para 7 secciones administra
 
 ### 🔄 Plataforma SaaS — Digyto Solutions
 
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white"/> <img src="https://img.shields.io/badge/Stripe-008CDD?style=flat&logo=stripe&logoColor=white"/>
 
 Motor de facturación recurrente **multimoneda con Stripe Billing**, webhooks y control multi-tenant. Guardas de cumplimiento fiscal (**SAT / e.Firma**). Auditoría de pólizas con trazabilidad inmutable. Page Builder con exportación a HTML estático.
 
@@ -163,7 +163,7 @@ Motor de facturación recurrente **multimoneda con Stripe Billing**, webhooks y 
 
 | 🏫 Institución | 📚 Título | 📅 Estado |
 |:---:|:---:|:---:|
-| **UTTECAM** | Ingeniería en Desarrollo y Gestión de Software | Egresado · Examen de titulación concluido · Título pendiente de trámite · Promedio: **9.63 / 10** |
+| **UTTECAM** | Ingeniería en Desarrollo y Gestión de Software | Egresado · Protesta profesional realizada (jun 2026) · Título en trámite · Promedio: **9.45 / 10** |
 | **UTTECAM** | TSU en Desarrollo de Software Multiplataforma | 2022 – 2024 |
 
 </div>
