@@ -33,12 +33,12 @@
   </header>
 
   <h2>Perfil</h2>
-  <p>Ingeniero de Software especializado en desarrollo Backend con experiencia en el diseño y despliegue de arquitecturas escalables, APIs REST seguras (NestJS, Node.js, TypeScript) y bases de datos relacionales (PostgreSQL). Experiencia llevando plataformas SaaS B2B desde el diseño hasta producción con usuarios reales, implementando autenticación robusta (JWT/RBAC), integración de pagos (Stripe) y automatización de pruebas (CI/CD con Docker y Linux). Enfocado en código limpio, modular y alta confiabilidad operativa.</p>
+  <p>Desarrollador Backend con experiencia práctica en el diseño y despliegue de APIs REST seguras (NestJS, Node.js, Express, TypeScript) y modelado de bases de datos relacionales (PostgreSQL, MySQL). He llevado sistemas web y aplicaciones SaaS desde el desarrollo hasta producción, implementando autenticación (JWT/RBAC), pasarelas de pago (Stripe), pruebas automatizadas y despliegues con Docker en Linux. Enfocado en escribir código limpio, modular y mantenible.</p>
 
   <h2>Experiencia</h2>
   <h3>Desarrollador Backend (Proyecto SaaS en producción) · NgiCode <span class="meta">| Remoto · abr 2026 – presente</span></h3>
   <ul>
-    <li>Diseñé y publiqué NgiCaja (<a href="https://caja.ngicode.com">caja.ngicode.com</a>), un SaaS B2B de punto de venta en web y Android mediante beta cerrada en Google Play.</li>
+    <li>Diseñé y publiqué NgiCaja (<a href="https://caja.ngicode.com">caja.ngicode.com</a>), aplicación SaaS de punto de venta disponible en web y Android mediante beta cerrada en Google Play.</li>
     <li>Construí una API de 109 endpoints en 26 módulos con NestJS, Prisma, PostgreSQL y Redis para ventas, inventario, cortes, sucursales y suscripciones.</li>
     <li>Implementé JWT (httpOnly), RBAC con 4 roles, aislamiento multi-tenant automático por contexto (CLS), límites por plan y pagos con Stripe.</li>
     <li>Desarrollé cobro transaccional ACID con llaves de idempotencia, sincronización en tiempo real por WebSockets (Socket.io) e importación de 5,000 productos.</li>
@@ -47,10 +47,10 @@
 
   <h3>Desarrollador Full Stack / Backend · Digyto Solutions <span class="meta">| Remoto · ene 2026 – may 2026</span></h3>
   <ul>
-    <li>Lideré el motor de facturación recurrente multimoneda con Stripe Billing, webhooks y límites por plan bajo Clean Architecture en .NET 8 y EF Core.</li>
-    <li>Desarrollé guardas de cumplimiento fiscal (SAT CFDI 4.0 / e.Firma) que bloquearon ejecuciones en tenants sin suscripción activa, eliminando fugas de costos.</li>
-    <li>Construí auditoría inmutable de pólizas (PolizaHistorial) y refactoricé RBAC, onboarding de 6 pasos y contratos API en microservicios NestJS/Sequelize.</li>
-    <li>Colaboré en un equipo ágil bajo Scrum (Git/PRs), consolidando +16,000 líneas de código y 49 commits en producción.</li>
+    <li>Desarrollé el motor de suscripciones multimoneda con Stripe Billing, validación de webhooks y control de límites por plan sobre PostgreSQL.</li>
+    <li>Implementé validaciones de cumplimiento fiscal (SAT CFDI 4.0 / e.Firma) que bloquearon sincronizaciones en cuentas inactivas, evitando carga innecesaria en el servidor.</li>
+    <li>Construí la bitácora inmutable de pólizas (PolizaHistorial) y refactoricé permisos RBAC, onboarding de 6 pasos y contratos API en microservicios NestJS/Sequelize.</li>
+    <li>Colaboré en un equipo ágil bajo Scrum (Git, Pull Requests y revisión de código), integrando 49 commits en producción.</li>
   </ul>
 
   <h3>Desarrollador Backend (Proyecto institucional) · UTTECAM <span class="meta">| Tecamachalco, Puebla · ago 2025 – dic 2025</span></h3>
@@ -65,14 +65,14 @@
   <p class="tech">NestJS · Prisma · PostgreSQL · Redis · Socket.io · React 18 · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
   <p>Motor POS con aislamiento multi-tenant por extensión de ORM, reconciliación de stock en vivo entre cajas, bloqueo transaccional de turnos y respaldos automatizados cifrados con AES-256-GCM en almacenamiento privado.</p>
 
-  <h3>Realtime Log Analytics — servicio de observabilidad ultraligero</h3>
+  <h3>Realtime Log Analytics — Servicio de ingesta y monitoreo de logs en tiempo real</h3>
   <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
-  <p>Servicio autocontenido de ingesta y streaming de logs en tiempo real, alternativa ligera a stacks como ELK o Datadog. Elegí Go por su modelo de concurrencia nativo (goroutines + channels) logrando ~46 MiB de RAM bajo carga. Benchmark con CLI propia y workers concurrentes: 19,037 req/s, 0 fallos, p99 de 31 ms con 100 clientes.</p>
+  <p>Servicio autocontenido de ingesta y streaming de logs en tiempo real con panel web integrado para monitorear servicios propios. Construido en Go aprovechando concurrencia nativa (goroutines + channels) con un consumo de ~46 MiB de RAM bajo carga. Benchmark con CLI propia y workers concurrentes: 19,037 req/s, 0 fallos y latencia p99 de 31 ms con 100 clientes.</p>
 
   <h2>Habilidades</h2>
   <div class="skills">
-    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST APIs, WebSockets (Socket.io), Webhooks, JWT, RBAC, Go, .NET / C#</p>
-    <p><strong>Datos:</strong> PostgreSQL, Supabase, Redis, MySQL, SQL, Prisma ORM, Sequelize, Entity Framework Core, MongoDB</p>
+    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST APIs, WebSockets (Socket.io), Webhooks, JWT, RBAC, Go</p>
+    <p><strong>Datos:</strong> PostgreSQL, Supabase, Redis, MySQL, SQL, Prisma ORM, Sequelize, MongoDB</p>
     <p><strong>Infraestructura y calidad:</strong> Docker, Linux, Oracle Cloud (OCI), Traefik, Sentry, Prometheus/Grafana, CI/CD, Git, Jest, Supertest, Vitest, Cypress, Scrum</p>
     <p><strong>Frontend complementario:</strong> React, Angular, Vite, Tailwind CSS, IndexedDB (Dexie), Next.js · <strong>Inglés:</strong> lectura y documentación técnica</p>
   </div>
