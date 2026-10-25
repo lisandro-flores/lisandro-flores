@@ -6,18 +6,18 @@
   <style>
     @page { size: Letter; margin: 0.42in 0.5in; }
     * { box-sizing: border-box; }
-    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 9.15pt; line-height: 1.18; }
-    header { text-align: center; margin-bottom: 9px; }
-    h1 { margin: 0 0 2px; font-size: 21pt; letter-spacing: .5px; color: #141827; }
+    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 8.85pt; line-height: 1.15; }
+    header { text-align: center; margin-bottom: 7px; }
+    h1 { margin: 0 0 2px; font-size: 20pt; letter-spacing: .5px; color: #141827; }
     .role { font-size: 11.2pt; color: #465064; margin-bottom: 4px; }
     .contact { font-size: 8.6pt; color: #4d5668; }
     a { color: #145dcc; text-decoration: none; }
-    h2 { margin: 9px 0 5px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.5pt; text-transform: uppercase; letter-spacing: .2px; }
-    h3 { margin: 5px 0 2px; font-size: 9.7pt; }
+    h2 { margin: 7px 0 4px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.3pt; text-transform: uppercase; letter-spacing: .2px; }
+    h3 { margin: 4px 0 1px; font-size: 9.5pt; }
     .meta { font-weight: normal; color: #576174; }
     p { margin: 0 0 4px; }
-    ul { margin: 2px 0 5px 16px; padding: 0; }
-    li { margin: 0 0 1.5px; }
+    ul { margin: 1px 0 3px 16px; padding: 0; }
+    li { margin: 0 0 1px; }
     .tech { color: #515b6d; font-size: 8.65pt; }
     .skills p { margin-bottom: 2px; }
     .education { display: flex; justify-content: space-between; gap: 15px; }
@@ -36,34 +36,34 @@
   <p>Software Engineer specializing in Backend development with expertise in designing and deploying scalable architectures, secure REST APIs (NestJS, Node.js, TypeScript), and relational databases (PostgreSQL). Experienced in taking B2B SaaS platforms from design to production with real users, implementing robust authentication (JWT/RBAC), payment integration (Stripe), and test automation (CI/CD with Docker and Linux). Focused on clean, modular code and high operational reliability.</p>
 
   <h2>Experience</h2>
-  <h3>Founder & Software Engineer · NgiCode <span class="meta">| Remote · Apr 2026 – Present</span></h3>
+  <h3>Backend Developer (Production SaaS Project) · NgiCode <span class="meta">| Remote · Apr 2026 – Present</span></h3>
   <ul>
-    <li>Designed and shipped NgiCaja, a B2B POS SaaS available on web and Android through a closed beta on Google Play.</li>
-    <li>Built a 109-endpoint API across 26 modules with NestJS, Prisma, and PostgreSQL for sales, inventory, cash register closings, branches, and subscriptions.</li>
-    <li>Implemented JWT, RBAC with 4 roles, per-business data isolation, plan-based limits, and Stripe subscription integration.</li>
-    <li>Developed offline sync, bulk import of up to 5,000 products via Excel/CSV, and ticket and barcode generation.</li>
+    <li>Designed and shipped NgiCaja (<a href="https://caja.ngicode.com">caja.ngicode.com</a>), a B2B POS SaaS available on web and Android through a closed beta on Google Play.</li>
+    <li>Built a 109-endpoint API across 26 modules with NestJS, Prisma, PostgreSQL, and Redis for sales, inventory, cash closings, branches, and subscriptions.</li>
+    <li>Implemented JWT (httpOnly), RBAC with 4 roles, automatic context-based multi-tenant isolation (CLS), plan limits, and Stripe subscriptions.</li>
+    <li>Developed ACID transactional checkout with idempotency keys, real-time sync via WebSockets (Socket.io), and bulk import of up to 5,000 products.</li>
     <li>Automated 979 tests (Jest + Supertest + Vitest + Cypress) and CI/CD pipeline with Docker and Linux; deploy in 5–7 min from push to production.</li>
   </ul>
 
   <h3>Full Stack / Backend Developer · Digyto Solutions <span class="meta">| Remote · Jan 2026 – May 2026</span></h3>
   <ul>
-    <li>Designed and implemented a multi-currency recurring billing engine with Stripe Billing, webhook reconciliation, and multi-tenant access control (NestJS / .NET).</li>
-    <li>Developed tax-compliance guards (SAT / e.Firma) that blocked unauthorized consumption on inactive tenants, eliminating operational cost leaks.</li>
-    <li>Built an immutable policy audit module (Entity Framework Core) and refactored RBAC and API contracts across the SaaS platform.</li>
-    <li>Consolidated 16,000+ lines of code and 49 production commits in an agile team of 4 developers using Scrum.</li>
+    <li>Led the multi-currency recurring billing engine with Stripe Billing, webhooks, and plan limits under Clean Architecture in .NET 8 and EF Core.</li>
+    <li>Developed tax-compliance guards (SAT CFDI 4.0 / e.Firma) that blocked unauthorized jobs on inactive tenants, eliminating operational cost leaks.</li>
+    <li>Built an immutable policy audit module (PolizaHistorial) and refactored RBAC, 6-step onboarding, and API contracts across NestJS/Sequelize microservices.</li>
+    <li>Collaborated in an agile Scrum team (Git/PRs), consolidating 16,000+ lines of code and 49 production commits.</li>
   </ul>
 
   <h3>Backend Developer (Institutional Project) · UTTECAM <span class="meta">| Tecamachalco, Puebla · Aug 2025 – Dec 2025</span></h3>
   <ul>
-    <li>Developed and deployed a REST API with Node.js, Express, JWT, and CRUD for 7 sections of the institutional CMS; the system remains active in production.</li>
-    <li>Administrative modules reduced content update turnaround from hours/days of paperwork to approximately 30 minutes.</li>
-    <li>Managed production deployments and continuous maintenance via cPanel, ensuring system availability and incident resolution.</li>
+    <li>Developed and deployed a REST API with TypeScript, Express, Sequelize ORM, and MySQL for 7 sections of the institutional CMS active in production.</li>
+    <li>Implemented OWASP Top 10 security (Helmet, Rate-Limiting, JWT, and Winston logging), reducing content update turnaround from days to ~30 minutes.</li>
+    <li>Automated FTP deployment scripts, production seeds, and live diagnostic/security test suites using Jest and Supertest on Linux/cPanel.</li>
   </ul>
 
   <h2>Featured Projects</h2>
-  <h3>NgiCaja — B2B Point-of-Sale SaaS</h3>
-  <p class="tech">NestJS · Prisma · PostgreSQL · React · Ionic · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
-  <p>Multi-tenant product with sales, per-branch inventory, cash register closings, receipts, bulk import, offline operation, and subscriptions.</p>
+  <h3>NgiCaja — Transactional Architecture, Offline-First & Backups</h3>
+  <p class="tech">NestJS · Prisma · PostgreSQL · Redis · Socket.io · React 18 · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
+  <p>POS engine with ORM-extension multi-tenant isolation, real-time cross-register stock reconciliation, transactional shift locking, and automated AES-256-GCM encrypted backups to private storage.</p>
 
   <h3>Realtime Log Analytics — Lightweight Observability Service</h3>
   <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
@@ -71,10 +71,10 @@
 
   <h2>Skills</h2>
   <div class="skills">
-    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST APIs, Webhooks, JWT, RBAC, WebSockets, Go</p>
-    <p><strong>Data:</strong> PostgreSQL, MySQL, MongoDB, SQL, Prisma ORM</p>
-    <p><strong>Infrastructure & Quality:</strong> Docker, Linux, Git/GitHub, CI/CD, Jest, Cypress, Postman, Scrum, cPanel</p>
-    <p><strong>Complementary Frontend:</strong> React, Angular, Ionic, Next.js, Tailwind CSS · <strong>Languages:</strong> Spanish (native), English (technical reading & written docs)</p>
+    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST APIs, WebSockets (Socket.io), Webhooks, JWT, RBAC, Go, .NET / C#</p>
+    <p><strong>Data:</strong> PostgreSQL, Supabase, Redis, MySQL, SQL, Prisma ORM, Sequelize, Entity Framework Core, MongoDB</p>
+    <p><strong>Infrastructure & Quality:</strong> Docker, Linux, Git/GitHub, CI/CD, Jest, Supertest, Vitest, Cypress, Postman, Scrum</p>
+    <p><strong>Complementary Frontend:</strong> React, Angular, Vite, Tailwind CSS, IndexedDB (Dexie), Next.js · <strong>Languages:</strong> Spanish (native), English (technical reading & written docs)</p>
   </div>
 
   <h2>Education</h2>

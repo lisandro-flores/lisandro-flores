@@ -6,18 +6,18 @@
   <style>
     @page { size: Letter; margin: 0.42in 0.5in; }
     * { box-sizing: border-box; }
-    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 9.15pt; line-height: 1.18; }
-    header { text-align: center; margin-bottom: 9px; }
-    h1 { margin: 0 0 2px; font-size: 21pt; letter-spacing: .5px; color: #141827; }
+    body { margin: 0; color: #172033; font-family: Arial, Helvetica, sans-serif; font-size: 8.85pt; line-height: 1.15; }
+    header { text-align: center; margin-bottom: 7px; }
+    h1 { margin: 0 0 2px; font-size: 20pt; letter-spacing: .5px; color: #141827; }
     .role { font-size: 11.2pt; color: #465064; margin-bottom: 4px; }
     .contact { font-size: 8.6pt; color: #4d5668; }
     a { color: #145dcc; text-decoration: none; }
-    h2 { margin: 9px 0 5px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.5pt; text-transform: uppercase; letter-spacing: .2px; }
-    h3 { margin: 5px 0 2px; font-size: 9.7pt; }
+    h2 { margin: 7px 0 4px; padding-bottom: 2px; border-bottom: 1.5px solid #1967d2; color: #155ec7; font-size: 11.3pt; text-transform: uppercase; letter-spacing: .2px; }
+    h3 { margin: 4px 0 1px; font-size: 9.5pt; }
     .meta { font-weight: normal; color: #576174; }
     p { margin: 0 0 4px; }
-    ul { margin: 2px 0 5px 16px; padding: 0; }
-    li { margin: 0 0 1.5px; }
+    ul { margin: 1px 0 3px 16px; padding: 0; }
+    li { margin: 0 0 1px; }
     .tech { color: #515b6d; font-size: 8.65pt; }
     .skills p { margin-bottom: 2px; }
     .education { display: flex; justify-content: space-between; gap: 15px; }
@@ -36,34 +36,34 @@
   <p>Ingeniero de Software especializado en desarrollo Backend con experiencia en el diseño y despliegue de arquitecturas escalables, APIs REST seguras (NestJS, Node.js, TypeScript) y bases de datos relacionales (PostgreSQL). Experiencia llevando plataformas SaaS B2B desde el diseño hasta producción con usuarios reales, implementando autenticación robusta (JWT/RBAC), integración de pagos (Stripe) y automatización de pruebas (CI/CD con Docker y Linux). Enfocado en código limpio, modular y alta confiabilidad operativa.</p>
 
   <h2>Experiencia</h2>
-  <h3>Fundador y Software Engineer · NgiCode <span class="meta">| Remoto · abr 2026 – presente</span></h3>
+  <h3>Desarrollador Backend (Proyecto SaaS en producción) · NgiCode <span class="meta">| Remoto · abr 2026 – presente</span></h3>
   <ul>
-    <li>Diseñé y publiqué NgiCaja, un SaaS B2B de punto de venta disponible en web y Android mediante una beta cerrada en Google Play.</li>
-    <li>Construí una API de 109 endpoints en 26 módulos con NestJS, Prisma y PostgreSQL para ventas, inventario, cortes de caja, sucursales y suscripciones.</li>
-    <li>Implementé JWT, RBAC con 4 roles, aislamiento de datos por negocio, límites por plan e integración de suscripciones con Stripe.</li>
-    <li>Desarrollé sincronización offline, importación masiva de hasta 5,000 productos por Excel/CSV y generación de tickets y códigos de barras.</li>
+    <li>Diseñé y publiqué NgiCaja (<a href="https://caja.ngicode.com">caja.ngicode.com</a>), un SaaS B2B de punto de venta en web y Android mediante beta cerrada en Google Play.</li>
+    <li>Construí una API de 109 endpoints en 26 módulos con NestJS, Prisma, PostgreSQL y Redis para ventas, inventario, cortes, sucursales y suscripciones.</li>
+    <li>Implementé JWT (httpOnly), RBAC con 4 roles, aislamiento multi-tenant automático por contexto (CLS), límites por plan y pagos con Stripe.</li>
+    <li>Desarrollé cobro transaccional ACID con llaves de idempotencia, sincronización en tiempo real por WebSockets (Socket.io) e importación de 5,000 productos.</li>
     <li>Automaticé 979 tests (Jest + Supertest + Vitest + Cypress) y pipeline CI/CD con Docker y Linux; deploy en 5–7 min desde push a producción.</li>
   </ul>
 
   <h3>Desarrollador Full Stack / Backend · Digyto Solutions <span class="meta">| Remoto · ene 2026 – may 2026</span></h3>
   <ul>
-    <li>Diseñé e implementé un motor de facturación recurrente multimoneda con Stripe Billing, conciliación de webhooks y control de acceso multi-tenant en el backend (NestJS / .NET).</li>
-    <li>Desarrollé guardas de cumplimiento fiscal (SAT / e.Firma) que bloquearon consumo no autorizado en tenants sin suscripción activa, eliminando fugas de costos operativos.</li>
-    <li>Construí un módulo de auditoría de pólizas con trazabilidad inmutable (Entity Framework Core) y refactoricé RBAC y contratos API de la plataforma SaaS.</li>
-    <li>Consolidé +16,000 líneas de código y 49 commits de producción en un equipo ágil de 4 devs con Scrum.</li>
+    <li>Lideré el motor de facturación recurrente multimoneda con Stripe Billing, webhooks y límites por plan bajo Clean Architecture en .NET 8 y EF Core.</li>
+    <li>Desarrollé guardas de cumplimiento fiscal (SAT CFDI 4.0 / e.Firma) que bloquearon ejecuciones en tenants sin suscripción activa, eliminando fugas de costos.</li>
+    <li>Construí auditoría inmutable de pólizas (PolizaHistorial) y refactoricé RBAC, onboarding de 6 pasos y contratos API en microservicios NestJS/Sequelize.</li>
+    <li>Colaboré en un equipo ágil bajo Scrum (Git/PRs), consolidando +16,000 líneas de código y 49 commits en producción.</li>
   </ul>
 
   <h3>Desarrollador Backend (Proyecto institucional) · UTTECAM <span class="meta">| Tecamachalco, Puebla · ago 2025 – dic 2025</span></h3>
   <ul>
-    <li>Desarrollé y desplegué una API REST con Node.js, Express, JWT y CRUD para 7 secciones del CMS institucional; el sistema sigue activo en producción.</li>
-    <li>Los módulos administrativos redujeron la actualización de contenido de horas o días de trámite a aproximadamente 30 minutos.</li>
-    <li>Administré el despliegue continuo y mantenimiento en producción con cPanel, garantizando disponibilidad y atención a incidencias.</li>
+    <li>Desarrollé y desplegué una API REST con TypeScript, Express, Sequelize ORM y MySQL para 7 secciones del CMS institucional activo en producción.</li>
+    <li>Implementé seguridad OWASP Top 10 (Helmet, Rate-Limiting, JWT y auditoría con Winston), reduciendo actualizaciones de contenido de días a ~30 minutos.</li>
+    <li>Automaticé scripts de despliegue por FTP, seeds de producción y suites de diagnóstico/seguridad en vivo con Jest y Supertest sobre Linux/cPanel.</li>
   </ul>
 
   <h2>Proyectos destacados</h2>
-  <h3>NgiCaja — SaaS de punto de venta B2B</h3>
-  <p class="tech">NestJS · Prisma · PostgreSQL · React · Ionic · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
-  <p>Producto multiusuario con ventas, inventario por sucursal, cortes de caja, tickets, importación masiva, operación offline y suscripciones.</p>
+  <h3>NgiCaja — Arquitectura Transaccional, Offline-First y Respaldos</h3>
+  <p class="tech">NestJS · Prisma · PostgreSQL · Redis · Socket.io · React 18 · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
+  <p>Motor POS con aislamiento multi-tenant por extensión de ORM, reconciliación de stock en vivo entre cajas, bloqueo transaccional de turnos y respaldos automatizados cifrados con AES-256-GCM en almacenamiento privado.</p>
 
   <h3>Realtime Log Analytics — servicio de observabilidad ultraligero</h3>
   <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
@@ -71,10 +71,10 @@
 
   <h2>Habilidades</h2>
   <div class="skills">
-    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST APIs, Webhooks, JWT, RBAC, WebSockets, Go</p>
-    <p><strong>Datos:</strong> PostgreSQL, MySQL, MongoDB, SQL, Prisma ORM</p>
-    <p><strong>Infraestructura y calidad:</strong> Docker, Linux, Git/GitHub, CI/CD, Jest, Cypress, Postman, Scrum, cPanel</p>
-    <p><strong>Frontend complementario:</strong> React, Angular, Ionic, Next.js, Tailwind CSS · <strong>Inglés:</strong> lectura y documentación técnica</p>
+    <p><strong>Backend:</strong> TypeScript, JavaScript, Node.js, NestJS, Express, REST APIs, WebSockets (Socket.io), Webhooks, JWT, RBAC, Go, .NET / C#</p>
+    <p><strong>Datos:</strong> PostgreSQL, Supabase, Redis, MySQL, SQL, Prisma ORM, Sequelize, Entity Framework Core, MongoDB</p>
+    <p><strong>Infraestructura y calidad:</strong> Docker, Linux, Git/GitHub, CI/CD, Jest, Supertest, Vitest, Cypress, Postman, Scrum</p>
+    <p><strong>Frontend complementario:</strong> React, Angular, Vite, Tailwind CSS, IndexedDB (Dexie), Next.js · <strong>Inglés:</strong> lectura y documentación técnica</p>
   </div>
 
   <h2>Educación</h2>

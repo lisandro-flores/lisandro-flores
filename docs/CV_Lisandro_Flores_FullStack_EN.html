@@ -36,34 +36,34 @@
   <p>Full Stack Developer experienced across the full software lifecycle, from data modeling and secure REST APIs (NestJS, PostgreSQL) to modern responsive web and mobile interfaces (React, Angular, TypeScript, Tailwind CSS). Proven track record taking SaaS platforms to production with real users, integrating payment gateways (Stripe), and establishing CI/CD pipelines with Docker and Linux. Known for strong technical autonomy, product sense, and rigorous automated testing.</p>
 
   <h2>Experience</h2>
-  <h3>Founder & Full Stack Software Engineer · NgiCode <span class="meta">| Remote · Apr 2026 – Present</span></h3>
+  <h3>Full Stack Developer (Production SaaS Project) · NgiCode <span class="meta">| Remote · Apr 2026 – Present</span></h3>
   <ul>
-    <li>Designed and shipped NgiCaja, a SaaS application available on web, PWA, and Android through a closed beta on Google Play.</li>
-    <li>Built responsive interfaces in React for POS, inventory, receipts, cash register closings, reports, users, and subscriptions.</li>
-    <li>Developed the backend: 109 endpoints across 26 modules with NestJS, Prisma, and PostgreSQL, including JWT, RBAC (4 roles), and multi-tenant isolation.</li>
-    <li>Implemented offline sync, bulk import of up to 5,000 products via Excel/CSV, barcode scanning, and Stripe payments.</li>
-    <li>Automated 979 tests (Jest + Supertest + Vitest + Cypress) and CI/CD pipeline with Docker and Linux; deploy in 5–7 min from push to production.</li>
+    <li>Designed and shipped NgiCaja (<a href="https://caja.ngicode.com">caja.ngicode.com</a>), a SaaS platform available on web, PWA, and Android via a closed beta on Google Play.</li>
+    <li>Built a modular frontend with React 18, Vite, TypeScript, and Tailwind CSS, featuring Offline-First operation (IndexedDB/Dexie) and Socket.io.</li>
+    <li>Developed 109 endpoints across 26 modules with NestJS, Prisma, PostgreSQL, and Redis, including JWT (httpOnly), RBAC (4 roles), and multi-tenant isolation.</li>
+    <li>Implemented ACID transactional checkout with idempotency keys, bulk import of up to 5,000 products via Excel/CSV, and Stripe subscriptions.</li>
+    <li>Automated 979 tests (Vitest + Jest + Supertest + Cypress) and CI/CD pipeline with Docker and Linux; deploy in 5–7 min from push to production.</li>
   </ul>
 
   <h3>Full Stack / Backend Developer · Digyto Solutions <span class="meta">| Remote · Jan 2026 – May 2026</span></h3>
   <ul>
-    <li>Refactored RBAC, onboarding, and dynamic QR connection modules in Angular; built a Page Builder from scratch with static HTML export and Lazy Loading.</li>
-    <li>Designed a multi-currency billing engine with Stripe Billing, webhook reconciliation, and multi-tenant access control (NestJS / .NET).</li>
-    <li>Implemented tax-compliance guards (SAT / e.Firma) and an immutable policy audit module (Entity Framework Core).</li>
-    <li>Consolidated 16,000+ lines and 49 production commits in an agile team of 4 developers using Scrum, with end-to-end full-stack ownership.</li>
+    <li>Refactored RBAC, 6-step onboarding, and real-time QR modules in Angular + NestJS/Sequelize microservices; built a Page Builder with static HTML export and Lazy Loading.</li>
+    <li>Led the multi-currency billing engine with Stripe Billing, webhooks, and plan limits under Clean Architecture in .NET 8 and Entity Framework Core.</li>
+    <li>Implemented tax-compliance guards (SAT CFDI 4.0 / e.Firma) and an immutable policy audit module (PolizaHistorial), eliminating operational cost leaks.</li>
+    <li>Collaborated in an agile Scrum team (Git/PRs), delivering 16,000+ lines and 49 production commits with end-to-end full-stack ownership.</li>
   </ul>
 
-  <h3>Backend Developer (Institutional Project) · UTTECAM <span class="meta">| Tecamachalco, Puebla · Aug 2025 – Dec 2025</span></h3>
+  <h3>Full Stack / Backend Developer (Institutional Project) · UTTECAM <span class="meta">| Tecamachalco, Puebla · Aug 2025 – Dec 2025</span></h3>
   <ul>
-    <li>Collaborated on building and deploying an institutional CMS with 7 administrable sections; the system remains active in production.</li>
-    <li>Developed a REST API with Node.js, Express, JWT, validation, and CRUD; modules reduced content update turnaround to approximately 30 minutes.</li>
-    <li>Deployed and managed the production CMS via cPanel, ensuring system uptime and ongoing incident support.</li>
+    <li>Built and deployed the REST API (TypeScript, Express, Sequelize, MySQL) and admin Dashboard (React, Vite, Tailwind) for 7 institutional sections in production.</li>
+    <li>Implemented OWASP Top 10 security (Helmet, Rate-Limiting, JWT, and Winston rotating logs), reducing content update turnaround from days to ~30 minutes.</li>
+    <li>Automated FTP deployment scripts, production seeds, and live diagnostic/security test suites using Jest and Supertest on Linux/cPanel.</li>
   </ul>
 
   <h2>Featured Projects</h2>
-  <h3>NgiCaja — Web & Android SaaS Application</h3>
-  <p class="tech">React · Ionic · Capacitor · NestJS · Prisma · PostgreSQL · Docker · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
-  <p>Multi-tenant product with adaptive UI for mobile, tablet, and desktop; sales, per-branch inventory, receipts, reports, offline operation, and subscriptions.</p>
+  <h3>NgiCaja — Offline-First Architecture & Multi-Register Sync</h3>
+  <p class="tech">React 18 · Vite · IndexedDB (Dexie) · Capacitor · NestJS · Prisma · PostgreSQL · Redis · <a href="https://caja.ngicode.com">caja.ngicode.com</a></p>
+  <p>POS engine with per-tenant local IndexedDB storage, real-time inventory reconciliation (WebSockets + offline FIFO queue), transactional cash-shift locking, and automated AES-256-GCM encrypted backups.</p>
 
   <h3>Realtime Log Analytics — Lightweight Observability Service</h3>
   <p class="tech">Go · Gin · WebSockets · PostgreSQL · <a href="https://github.com/lisandro-flores/realtime-logs">github.com/lisandro-flores/realtime-logs</a></p>
@@ -71,10 +71,10 @@
 
   <h2>Skills</h2>
   <div class="skills">
-    <p><strong>Frontend:</strong> TypeScript, JavaScript, React, Angular, Ionic, Capacitor, Next.js, Tailwind CSS, responsive design</p>
-    <p><strong>Backend:</strong> Node.js, NestJS, Express, REST APIs, Webhooks, JWT, RBAC, WebSockets, Go</p>
-    <p><strong>Data:</strong> PostgreSQL, MySQL, MongoDB, SQL, Prisma ORM</p>
-    <p><strong>Infrastructure & Quality:</strong> Docker, Linux, Git/GitHub, CI/CD, Jest, Cypress, Postman, Scrum · <strong>Languages:</strong> Spanish (native), English (technical reading & written docs)</p>
+    <p><strong>Frontend:</strong> TypeScript, JavaScript, React, Angular, Vite, Tailwind CSS, React Query, IndexedDB (Dexie), Capacitor, Next.js</p>
+    <p><strong>Backend:</strong> Node.js, NestJS, Express, REST APIs, WebSockets (Socket.io), Webhooks, JWT, RBAC, Go, .NET / C#</p>
+    <p><strong>Data:</strong> PostgreSQL, Supabase, Redis, MySQL, SQL, Prisma ORM, Sequelize, Entity Framework Core, MongoDB</p>
+    <p><strong>Infrastructure & Quality:</strong> Docker, Linux, Git/GitHub, CI/CD, Jest, Vitest, Supertest, Cypress, Scrum · <strong>Languages:</strong> Spanish (native), English (technical reading & written docs)</p>
   </div>
 
   <h2>Education</h2>
